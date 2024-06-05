@@ -1,0 +1,99 @@
+body {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e7e3e387; 
+    margin: 0;
+}
+
+.container {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #739581; 
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #d8e2dc; 
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #ffffff; 
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #bddac9; 
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ffefd9; 
+    color: black;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #d8e2dc; 
+    background-color: #ffefd9; 
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #9e9e9e;
+    background-color: #d8e2dc;
+}
+
+li button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: black; 
+    font-size: 16px;
+}
+
+li button.edit {
+    color: black; 
+}
+
+li button.edit:hover {
+    color: #7e57c2; 
+}
+
+li button.delete:hover {
+    color: #7e57c2; 
+}
+
+li input[type="radio"] {
+    cursor: pointer;
+}
